@@ -47,7 +47,7 @@ To use the display, you need to provide your own RV32E binary that writes to the
 `minirvEUM.c`:
 
 **Tip:** The picture should be this one.
-![preview](assets/121110205.jpg)
+![preview](https://raw.githubusercontent.com/kadaberu/Mini-RV32E-Emulator/main/preview.jpg)
 ```c
 FILE *fp_rom = fopen("your_binary.bin", "rb");
 FILE *fp_ram = fopen("your_binary.bin", "rb");
