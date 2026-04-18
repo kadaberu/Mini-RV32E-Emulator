@@ -46,6 +46,8 @@ Memory-mapped display over the range `0x20000000–0x2003FFFF`.
 To use the display, you need to provide your own RV32E binary that writes to the memory-mapped display range. By default the emulator loads `vga.bin`; to load a different binary, change the filename in the two `fopen` calls near the top of `main()` in
 `minirvEUM.c`:
 
+**Tip:** The picture should be this one.
+![preview](assets/121110205.jpg)
 ```c
 FILE *fp_rom = fopen("your_binary.bin", "rb");
 FILE *fp_ram = fopen("your_binary.bin", "rb");
