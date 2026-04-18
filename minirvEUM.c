@@ -166,7 +166,7 @@ int main(){
   for(int i=0;i<4*1048576;i++){
         ROM[i]=0; 
     }
-  FILE *fp_rom=fopen("mem.bin","rb");
+  FILE *fp_rom=fopen("vga.bin","rb");
   if(fp_rom==NULL){
         printf("Error\n");
         return -1;
@@ -174,7 +174,7 @@ int main(){
     fread(ROM,1,4*1048576,fp_rom);
     
         fclose(fp_rom);
-  FILE *fp_ram=fopen("mem.bin","rb");
+  FILE *fp_ram=fopen("vga.bin","rb");
   if(fp_ram==NULL){
         printf("Error\n");
         return -1;
