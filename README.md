@@ -55,7 +55,7 @@ FILE *fp_ram = fopen("your_binary.bin", "rb");
 
 ## Build & Run
 
-> ⚠️ Tested on Linux only. Windows is not supported and has not been tested.
+> ⚠️ Tested on Linux only. Windows has not been tested.
 
 **Prerequisites**: gcc (C99+), make, AbstractMachine environment
 
