@@ -64,10 +64,10 @@ FILE *fp_ram = fopen("your_binary.bin", "rb");
 make
 
 # Run (requires mem.bin in project root by default)
-make run
+make ARCH=native run
 
 # Debug with GDB
-make debug
+make ARCH=native debug
 gdb ./minirvemu
 ```
 
